@@ -1,0 +1,99 @@
+/*colours and fonts*/
+
+body {
+	background: #FFFFFF;
+	color: #002A32;
+	font-family: 'Heebo', sans-serif;
+	font-size: 20px;
+}
+
+h1, h2, h3 {
+	font-family: 'Heebo', sans-serif;
+	color: #0CA4A5;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+a {
+	font-family: 'Secular One', sans-serif;
+	text-decoration: none;
+	color:  #BB7E5D;
+}
+a:hover {
+	color: #DBB68F;
+}
+
+.container {
+	width:  700px;
+	margin : 40px auto;
+}
+
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 500px;
+	}
+}
+
+.card-white {
+	background-color:  white;
+	padding:  43px;
+	box-shadow:  0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+	margin:  20px 0px;
+}
+
+.img-circle {
+	width:  150px;
+	height:  auto;
+	border-radius : 50%	
+}
+.btn-blue {
+	background-color: #0CA4A5;
+	color:  white;
+	padding:  15px 20px;
+	border-radius:  4px;
+}
+.btn-blue:hover {
+	background-color: #D90368;
+	color:  white;
+}
+
+.list-inline {
+	list-style:  none;
+	padding-left:  0px;
+}
+.list-inline li {
+	display:  inline;
+	padding:  10 px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #002A32; 
+	padding-left: 40px;
+	padding-right:  40px;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: #D90368;
+}
+
+#introduction p{
+	margin-bottom:  40px;
+
+}
+
